@@ -7,6 +7,8 @@ if(strtolower($name)==='cam'){
     if(1===1){
       echo "yes 1 is equal to 1!";
 
+    }else{
+      echo 'not 21';
     }
   }
 }else{
