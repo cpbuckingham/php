@@ -7,5 +7,9 @@ come home
 */
 echo 'hello';
 
-//error 
+//error
+//go to php.ini for error handling
+echo $var = "alex";
+$var2 = "Billy";
+
 ?>
