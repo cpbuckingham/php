@@ -1,10 +1,17 @@
 <?php
 
 if(isset($_POST['contact_name']) && isset($_POST['contact_email']) && ($_POST['contact_text'])) {
-  $contact_name = $_POST['contact_name'];
-  $contact_email = $_POST['contact_email'];
-  $contact_text = $_POST['contact_text'];
+  echo $contact_name = $_POST['contact_name'];
+  echo $contact_email = $_POST['contact_email'];
+  echo $contact_text = $_POST['contact_text'];
+
+  if(!empty($contact_name)&&!empty($contact_email)&&!empty($contact_text)){
+    echo 'ok';
+  }else{
+    echo 'all fields are required '
+  }
 }
+
 
 ?>
 
