@@ -6,6 +6,11 @@ if(isset($_POST['contact_name']) && isset($_POST['contact_email']) && ($_POST['c
   echo $contact_text = $_POST['contact_text'];
 
   if(!empty($contact_name)&&!empty($contact_email)&&!empty($contact_text)){
+
+      if(strleng($contact_name)>25 || strlen($contact_text)>50 || strlen(contact_text)>1000){
+        else{
+      }
+
       $to= 'cam@galvanize.com';
       $subject='contact form submitted';
       $body=$contact_name."\n".$contact_text;
@@ -16,6 +21,7 @@ if(isset($_POST['contact_name']) && isset($_POST['contact_email']) && ($_POST['c
       }else{
         echo 'Sorry an error occured, please try again later';
       }
+    }
   }else{
     echo 'all fields are required '
   }
