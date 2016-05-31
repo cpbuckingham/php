@@ -31,9 +31,9 @@ if(isset($_POST['contact_name']) && isset($_POST['contact_email']) && ($_POST['c
 ?>
 
 <form action="index.php" method="POST">
-  Name:<br><input type = "text" name="contact_name"><br><br>
-  Email:<br><input type = "text" name="contact_email"><br><br>
+  Name:<br><input type = "text" name="contact_name" maxlength="25"><br><br>
+  Email:<br><input type = "text" name="contact_email" maxlength="50"><br><br>
   Message:<br>
-  <textarea name="contact_text" rows="6" cols="30"></textarea><br><br>
+  <textarea name="contact_text" rows="6" cols="30" maxlength="1000"></textarea><br><br>
   <input type="submit" value="Send">
 </form>
