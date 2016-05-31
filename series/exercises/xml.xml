@@ -3,16 +3,28 @@
   <producer>
     <name>cam</name>
     <age>28</age>
+    <show>
+      <showname> A show </showname>
+      <showdate> 12th of december 2010 </showdate>
+    </show>
   </producer>
 
   <producer>
     <name>jenna</name>
     <age>28</age>
+    <show>
+      <showname> Another show </showname>
+      <showdate> 4th of january 2014 </showdate>
+    </show>
   </producer>
 
   <producer>
     <name>lindsey</name>
     <age>28</age>
+    <show>
+      <showname> Last show </showname>
+      <showdate> 25th of july 2000 </showdate>
+    </show>
   </producer>
 
 </producers>
